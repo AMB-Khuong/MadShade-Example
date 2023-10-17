@@ -1,0 +1,33 @@
+section#terms {
+  background-color: #1b31b2;
+  height: 40px;
+  color: #ffcd00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#terms .banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+section#terms .banner-content a {
+  text-decoration: underline;
+  color: #ffcd00;
+}
+
+section#terms-content h2 {
+  font-family: "Helvetica, sans-serif";
+  font-size: 32px;
+  font-weight: 500;
+  height: 38.3949px;
+  line-height: 38.4px;
+}
+section#terms-content .vluxe_terms_text {
+  font-family: "Helvetica, sans-serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}

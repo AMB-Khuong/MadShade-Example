@@ -1,0 +1,61 @@
+section#privacy-policy {
+  background-color: #1b31b2;
+  height: 40px;
+  color: #ffcd00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica", sans-serif;
+}
+section#privacy-policy .banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+section#privacy-policy .banner-content a {
+  text-decoration: underline;
+  color: #ffcd00;
+}
+
+section#privacy-content {
+  font-family: "Helvetica", sans-serif;
+}
+section#privacy-content h2 {
+  font-family: "Helvetica, sans-serif";
+  font-size: 32px;
+  font-weight: bold;
+  height: 38.3949px;
+  line-height: 38.4px;
+  color: rgb(33, 37, 41);
+}
+section#privacy-content ul {
+  padding-left: 7% !important;
+}
+section#privacy-content ul li {
+  list-style-type: disc !important;
+  font-family: "Helvetica, sans-serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+section#privacy-content h4 {
+  color: rgb(33, 37, 41);
+  line-height: 28.8px;
+  font-family: "Helvetica, sans-serif";
+  font-size: 24px;
+  font-weight: 500;
+}
+section#privacy-content p {
+  font-family: "Helvetica, sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+section#privacy-content .madshade_privacy_text {
+  font-family: "Helvetica, sans-serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}

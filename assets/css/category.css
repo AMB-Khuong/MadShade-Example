@@ -1,0 +1,178 @@
+section#page-category .banner {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+section#page-category .woocommerce-result-count {
+  color: #7d7d7d;
+}
+section#page-category .woocommerce-result-count .number {
+  font-weight: bolder;
+  color: black;
+}
+section#page-category .row.search .product-short-description {
+  display: none;
+}
+section#page-category .row.search .woocommerce-loop-product__title {
+  color: #1b32b2;
+}
+section#page-category .banner100 {
+  margin-top: 100px;
+  width: 100%;
+}
+section#page-category .woocommerce-breadcrumb {
+  display: flex;
+  justify-content: end;
+  font-size: smaller;
+}
+section#page-category .woocommerce-breadcrumb a {
+  text-decoration: none;
+}
+section#page-category .woocommerce-breadcrumb a[href="https://madshade.amoeba.site/shop/"] {
+  font-weight: 700;
+  color: #000;
+}
+section#page-category .title-search {
+  color: #000;
+  font-size: 34px;
+  text-align: center;
+  margin-top: 70px;
+}
+section#page-category .wrap-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 42px;
+  padding: 24px 0px 80px 0px;
+}
+section#page-category .wrap-search .search-form {
+  width: 650px;
+  padding: 0 36px 0 0;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+section#page-category .wrap-search .search-form button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  position: absolute;
+}
+section#page-category .wrap-search .search-form button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%);
+}
+section#page-category .wrap-search .search-form input {
+  border: 0;
+  width: 100%;
+  height: 54px;
+  outline: 0;
+  font-size: 22px;
+  background: #fff;
+  padding-left: 15px;
+  padding-right: 4px;
+}
+section#page-category .btn-shopnow {
+  display: none;
+}
+section#page-category .layout-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#page-category .layout-filter .woocommerce-ordering {
+  text-align: center;
+}
+section#page-category .layout-filter .woocommerce-ordering select {
+  max-width: 100%;
+  height: 40px;
+  padding: 0 5px 0 15px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  background: #fff no-repeat right 10px center;
+  font-size: 14px;
+  color: #4e4e4e;
+  vertical-align: middle;
+}
+section#page-category .products .woocommerce-loop-product__title {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+section#page-category .products .woocommerce-Price-amount {
+  font-size: 18px;
+  color: #1b32b2;
+  font-weight: bold;
+}
+section#page-category .products .product-short-description p {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 14px;
+}
+section#page-category .wrap-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+section#page-category .wrap-btn button {
+  min-width: 220px;
+  padding: 15px 0;
+  border: 1px solid #222;
+  text-align: center;
+  transition: all 400ms;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#page-category .wrap-btn .btn-current-page {
+  margin-left: 5px;
+}
+section#page-category .wrap-btn.disable {
+  display: none;
+}
+section#page-category .wrap-btn button:hover {
+  background: #222;
+  border-color: #222;
+  color: #fff;
+  text-decoration: none;
+}
+section#page-category .woocommerce-pagination {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section#page-category .woocommerce-pagination a {
+  text-decoration: none;
+  color: black;
+}
+section#page-category .woocommerce-pagination li span {
+  display: block;
+  width: 40px;
+  padding: 12px 0;
+  font-size: 12px;
+  color: black;
+  border: 1px solid black;
+  line-height: 14px;
+  background: #fff;
+  box-sizing: border-box;
+}
+section#page-category .woocommerce-pagination li a {
+  display: block;
+  width: 40px;
+  padding: 12px 0;
+  font-size: 12px;
+  color: #6d6d6d;
+  border: 1px solid #e5e5e5;
+  line-height: 14px;
+  background: #fff;
+  box-sizing: border-box;
+}
+section#page-category .woocommerce-pagination li .page-numbers {
+  color: #000000;
+}

@@ -1,0 +1,275 @@
+aside {
+  z-index: 1001;
+  overflow: hidden auto;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  width: 300px;
+  min-width: 225px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  transition: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  transform: translateX(-300px);
+}
+aside .aside-menu #menu-main-1 li:last-child {
+  position: relative;
+}
+aside .aside-menu #menu-main-1 li:last-child a {
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin: 20px 0;
+}
+aside .aside-menu #menu-main-1 ion-icon {
+  position: absolute;
+  right: 0;
+  top: -5px;
+  transition: transform 0.3s ease-in-out;
+}
+aside .aside-menu #menu-main-1 ion-icon.rotate {
+  transform: rotate(180deg);
+  color: #e5e5e5;
+}
+aside .aside-menu .line-mobile {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+aside .aside-menu ul#menu-main-1 > li:not(.menu-item-has-children):not(.sub-menu) {
+  border-bottom: 1px solid #e5e5e5;
+}
+aside .aside-menu ul#menu-main-1 > li:not(.menu-item-has-children):not(.sub-menu) a {
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin: 20px 0;
+}
+aside .aside-menu .sub-menu {
+  display: none;
+}
+aside .aside-menu .sub-menu li {
+  padding-left: 20px;
+}
+aside .aside-menu .sub-menu li a {
+  display: block;
+  color: #6d6d6d !important;
+  font-size: 14px !important;
+}
+aside .aside-menu .sub-menu:has(+ ion-icon.rotate) {
+  display: block;
+}
+aside .layout-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+aside ion-icon {
+  width: 25px;
+  height: 25px;
+}
+
+aside.show {
+  transform: translateX(0);
+}
+
+main section#shop-online {
+  background-color: #1b31b2;
+  height: 40px;
+  color: #ffcd00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section#shop-online .banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+main section#shop-online .banner-content a {
+  text-decoration: underline;
+  color: #ffcd00;
+}
+main section#slider .swiper-slide picture {
+  height: 880px;
+}
+main section#slider .swiper-slide img {
+  vertical-align: middle;
+}
+main section#video .madshade_video_mobile.hidden {
+  display: none;
+}
+main section#video .madshade_video_web.hidden {
+  display: none;
+}
+main section#madshade_section_2 .madshade_category_title {
+  font-size: 250%;
+  color: #1b31b2;
+  font-weight: 800;
+}
+main section#madshade_section_2 .madshade_trending_btn {
+  color: #1b31b2;
+  font-size: 150%;
+  font-weight: 600;
+  padding: 0.5% 3%;
+  border: 3px solid #1b31b2;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+}
+main section#madshade_section_2 .slider-products .product_type_simple {
+  display: none;
+}
+main section#madshade_section_2 .slider-products .price {
+  display: none;
+}
+main section#madshade_section_2 .slider-products .product-short-description {
+  display: none;
+}
+main section#madshade_section_2 .slider-products .btn-shopnow {
+  display: none;
+}
+main section#madshade_section_2 .slider-products .product {
+  margin: 60px 0px 0px 0px !important;
+  width: 100%;
+  height: 100%;
+}
+main section#madshade_section_2 .slider-products .woocommerce-loop-product__link {
+  text-align: center;
+}
+main section#madshade_section_2 .slider-products .woocommerce-loop-product__link h2 {
+  color: #1b31b2;
+  font-weight: 600;
+  font-size: 20px;
+}
+main section#madshade_section_2 .slider-products .woocommerce-loop-product__link img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+main section#madshade_section_3 .madshade_category_title {
+  font-size: 250%;
+  color: #1b31b2;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+main section#madshade_section_3 .slide-submenu .slide-submenu-item {
+  position: relative;
+}
+main section#madshade_section_3 .slide-submenu .slide-submenu-item h2 {
+  position: absolute;
+  font-size: 1.8vw;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+main section#madshade_section_3 .slide-submenu .slide-submenu-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 768px) {
+  main section#madshade_section_3 .slide-submenu .slide-submenu-item h2 {
+    font-size: 10vw;
+  }
+}
+main section#best_seller .madshade_category_title {
+  font-size: 250%;
+  color: #1b31b2;
+  font-weight: 800;
+}
+main section#best_seller .slider_bestseller {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+main section#best_seller .slider_bestseller .products {
+  margin-bottom: 0px;
+}
+main section#best_seller .slider_bestseller .button {
+  display: none;
+}
+main section#best_seller .slider_bestseller .btn-shopnow {
+  width: 100%;
+  background-color: #1b31b2;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 27px;
+  font-family: "Montserrat, sans-serif";
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main section#best_seller .slider_bestseller .product {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+main section#best_seller .slider_bestseller .woocommerce-loop-product__link h2 {
+  color: rgb(27, 49, 178);
+  font-weight: 600;
+  font-size: 28px;
+}
+main section#best_seller .slider_bestseller .woocommerce-loop-product__link .price {
+  font-size: 32px;
+  color: rgb(27, 49, 178);
+  font-weight: 600;
+}
+main section#best_seller .slider_bestseller .woocommerce-loop-product__link .product-short-description {
+  margin-bottom: 30px;
+  color: rgb(27, 49, 178);
+  font-weight: 600;
+  font-size: large;
+}
+main section#best_seller .slider_bestseller .woocommerce-loop-product__link img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+main section#color {
+  overflow-x: hidden;
+  margin-bottom: 10px;
+}
+main section#color .madshade_category_title {
+  font-size: 250%;
+  color: #1b31b2;
+  font-weight: 800;
+}
+main section#color .madshade_color_overlay {
+  position: relative;
+}
+main section#color .madshade_color_overlay .madshade_overlay_text {
+  color: white;
+  font-size: 1.3vw;
+  font-weight: bold;
+  opacity: 1;
+}
+main section#color .madshade_color_overlay .madshade_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+main section#color .madshade_color_overlay .madshade_overlay:hover {
+  opacity: 0.9;
+}
+
+.owl-item {
+  user-select: all !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin-top: 20px;
+  }
+}

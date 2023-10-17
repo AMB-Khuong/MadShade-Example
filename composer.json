@@ -1,0 +1,19 @@
+{
+  "name": "amoeba/amoeba-plugin",
+  "description": "Mad Shade",
+  "type": "project",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "amoeba",
+      "email": "dev@amoeba.group"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Amoeba\\Inc\\": "./includes"
+    }
+  }
+}
